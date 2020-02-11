@@ -15,9 +15,9 @@
 
       <el-form-item :label="$t('fm.config.form.size')">
         <el-radio-group v-model="data.size">
-          <el-radio-button label="medium">medium</el-radio-button>
-          <el-radio-button label="small">small</el-radio-button>
-          <el-radio-button label="mini">mini</el-radio-button>
+          <el-radio-button label="medium">大</el-radio-button>
+          <el-radio-button label="small">中</el-radio-button>
+          <el-radio-button label="mini">小</el-radio-button>
         </el-radio-group>
       </el-form-item>
     </el-form>
